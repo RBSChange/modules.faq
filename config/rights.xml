@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rights>
+	<actions>
+		<document name="rootfolder" />
+		
+		<document name="faq">
+			<action name="Insert" back-office-name="createFaq"/>
+		</document>
+		
+		<document name="topic" />
+		<action name="GetDialogTopicTree" back-office-name="addTopic" />
+	</actions>
+
+	<roles>
+		<role name="Admin">
+			<permission name="*" />
+			<permission name="LoadPermissions.*" />
+			<permission name="SavePermissions.*" />
+			<permission name="GetPreferencesDocument" />
+			<permission name="Move.*" />
+			<permission name="GetDialogTopicTree" />
+			<permission name="Remove.topic" />
+		</role>
+
+		<role name="Writer" extend="Guest">
+			<permission name="Order" />
+			<permission name="Move.topic" />
+			<permission name="Load.*" />
+			<permission name="Rename.*" />
+			<permission name="PutInTrash.*" />
+			<permission name="Delete.*" />
+			<permission name="Insert.*" />
+			<permission name="Update.*" />
+		</role>
+
+		<role name="Translator" extend="Guest">
+			<permission name="LoadForTranslation.*" />
+			<permission name="UpdateTranslation.*" />
+		</role>
+
+		<role name="Validator" extend="Guest">
+			<permission name="Activate.faq" />
+			<permission name="Cancel.faq" />
+		</role>
+
+		<role name="AnswerWriter" extend="User">
+		</role>
+
+		<role name="ChooserToSave" extend="User">
+		</role>
+
+		<role name="Guest" extend="User">
+			<permission name="Enabled" />
+		</role>
+
+		<role name="User">
+			<permission name="List.*" />
+		</role>
+	</roles>
+</rights>

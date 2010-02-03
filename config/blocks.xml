@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<blocks>
+	<block type="modules_faq_contextuallist"
+       display=""
+       icon="question_and_answer"
+       label="&amp;modules.faq.bo.blocks.ContextualList;" />
+       
+    <block type="modules_faq_detail"
+       display=""
+       icon="question_and_answer"
+       label="&amp;modules.faq.bo.blocks.Detail;" />
+</blocks>

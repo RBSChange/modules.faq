@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">préférences</locale>
+    <locale lang="de">Präferenzen</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">édition des propriétés des préférences du module FAQ</locale>
+    <locale lang="en">question</locale>
+    <locale lang="de">Bearbeitung der Eigenschaften der Präferenzen des Moduls FAQ</locale>
+  </entity>
+  <entity id="nbitemperpage">
+    <locale lang="fr">nombre de questions par page</locale>
+    <locale lang="de">Anzahl Fragen pro Seite</locale>
+  </entity>
+  <entity id="nbitemperpage-help">
+    <locale lang="fr">indiquez ici le nombre de questions qui seront affichés par page</locale>
+    <locale lang="de">geben Sie hier die pro Seite anzuzeigende Anzahl an Fragen</locale>
+  </entity>
+  <entity id="msgforemptyfolder">
+    <locale lang="fr">texte pour dossier vide</locale>
+    <locale lang="de">Text für leeren Ordner</locale>
+  </entity>
+  <entity id="msgforemptyfolder-help">
+    <locale lang="fr">texte à afficher à la place de la liste des questions lorsqu'un dossier est vide</locale>
+    <locale lang="de">anzuzeigender Text an Stelle der Fragenliste, wenn der Ordner leer ist</locale>
+  </entity>
+  <entity id="activequestion">
+    <locale lang="fr">formulaire affiché ?</locale>
+    <locale lang="de">angezeigtes Formular?</locale>
+  </entity>
+  <entity id="activequestion-help">
+    <locale lang="fr">détermine si l'internaute peut ou non poser une question par un formulaire</locale>
+    <locale lang="de">bezeichnet ob ein Benutzer eine Frage per Formular stellen kann oder nicht</locale>
+  </entity>
+</localization>

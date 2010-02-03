@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="ContextualList">
+    <locale lang="fr">liste de questions / réponses</locale>
+    <locale lang="en">questions / answers list</locale>
+    <locale lang="de">Frage / Antwort Liste</locale>
+  </entity>
+  <entity id="Detail">
+    <locale lang="fr">détail d'une question / réponse</locale>
+    <locale lang="en">question / answer detail</locale>
+    <locale lang="de">Detail einer Frage / Antwort</locale>
+  </entity>
+</localization>

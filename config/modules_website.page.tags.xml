@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tags extends="website">
+	<tag label="&amp;modules.faq.bo.tags.faq-list;" icon="question_and_answer">functional_faq_faq-list</tag>
+	<tag label="&amp;modules.faq.bo.tags.faq-detail;" icon="question_and_answer">functional_faq_faq-detail</tag>
+	<tag label="&amp;modules.faq.bo.tags.form;" icon="form_blue">contextual_website_website_form</tag>
+</tags>

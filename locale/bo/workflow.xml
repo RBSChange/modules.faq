@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="AnswerQuestion.Title">
+    <locale lang="fr">répondre à une question posée sur le site</locale>
+    <locale lang="en"/>
+    <locale lang="de">eine auf der Webseite gestellte Frage beantworten</locale>
+  </entity>
+  <entity id="AnswerQuestion.Valid">
+    <locale lang="fr">envoyer la réponse</locale>
+    <locale lang="en"/>
+    <locale lang="de">Antwort senden</locale>
+  </entity>
+  <entity id="AnswerQuestion.Help">
+    <locale lang="fr">question</locale>
+    <locale lang="en"/>
+    <locale lang="de">Frage</locale>
+  </entity>
+  <entity id="AnswerQuestion.ResponseField">
+    <locale lang="fr">saisir la réponse</locale>
+    <locale lang="en"/>
+    <locale lang="de">Antwort verfassen</locale>
+  </entity>
+  <entity id="ChooseSavePlace.Title">
+    <locale lang="fr">conserver une question posée sur le site</locale>
+    <locale lang="en"/>
+    <locale lang="de">eine auf der Webseite gestellte Frage aufbewahren</locale>
+  </entity>
+  <entity id="ChooseSavePlace.Save">
+    <locale lang="fr">enregistrer</locale>
+    <locale lang="en"/>
+    <locale lang="de">speichern</locale>
+  </entity>
+  <entity id="ChooseSavePlace.Delete">
+    <locale lang="fr">supprimer</locale>
+    <locale lang="en"/>
+    <locale lang="de">löschen</locale>
+  </entity>
+  <entity id="ChooseSavePlace.Help">
+    <locale lang="fr">vous pouvez conserver une question posée sur le site, ou la supprimer (cliquer sur "supprimer"). Si vous souhaitez la conserver et la publier sur le site, choisissez le dossier dans lequel vous souhaitez la publier, et cliquez sur "enregistrer"</locale>
+    <locale lang="en"/>
+    <locale lang="de">Sie können eine auf der Webseite gestellte Frage aufbewahren, oder löschen (klicken Sie auf "löschen"). Môchten Sie 
+		sie aufbewahren und auf der Webseite veröffentlichen, wählen Sie den Ordner in dem Sie sie veröffentlichen möchten und klicken Sie auf 
+		"speichern"</locale>
+  </entity>
+</localization>

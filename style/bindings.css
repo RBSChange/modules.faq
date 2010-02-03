@@ -1,0 +1,6 @@
+wblocktoolbar[type="modules_faq_topic"]{
+	-moz-binding: url(binding:modules.faq.wTopicToolbar#wTopicToolbar);
+}
+wblocktoolbar[type="modules_faq_contextuallist"]{
+	-moz-binding: url(binding:modules.faq.wContextualListToolbar#wContextualListToolbar);
+}

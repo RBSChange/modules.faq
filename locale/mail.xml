@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="answer.subject">
+    <locale lang="fr">réponse à votre question</locale>
+    <locale lang="en"/>
+    <locale lang="de">Ihre Frage beantworten</locale>
+  </entity>
+  <entity id="answer.message">
+    <locale lang="fr">
+      <html>
+        <body>Bonjour,<br/><br/>Vous nous avez posé une question sur notre site : <br/> {question} <br/> <br/> Voici notre réponse : <br/> {answer} <br/><br/> Nous vous remercions de votre confiance, et espérons vous accueillir à nouveau sur notre site. <br/> <br/> Cordialement. <br/> <br/> L'équipe.</body>
+      </html>
+    </locale>
+    <locale lang="en"/>
+    <locale lang="de">
+      <html>
+        <body>Guten Tag,<br/><br/>Sie haben uns auf unserer Webseite eine Frage gestellt: <br/> {question} <br/> <br/> 
+		Anbei unsere Antwort: <br/> {answer} <br/><br/> Wir bedanken uns für Ihr Vertrauen, und hoffen Sie bald wieder auf unserer Webseite 
+		begrüssen zu dürfen. <br/> <br/> Mit freundlichen Grüssen. <br/> <br/> Das Team.</body>
+      </html>
+    </locale>
+  </entity>
+</localization>
