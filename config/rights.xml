@@ -2,11 +2,9 @@
 <rights>
 	<actions>
 		<document name="rootfolder" />
-		
 		<document name="faq">
 			<action name="Insert" back-office-name="createFaq"/>
 		</document>
-		
 		<document name="topic" />
 		<action name="GetDialogTopicTree" back-office-name="addTopic" />
 	</actions>
@@ -20,6 +18,7 @@
 			<permission name="Move.*" />
 			<permission name="GetDialogTopicTree" />
 			<permission name="Remove.topic" />
+			<permission name="EditLocale"/>
 		</role>
 
 		<role name="Writer" extend="Guest">
