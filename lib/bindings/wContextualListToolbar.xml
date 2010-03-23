@@ -5,7 +5,7 @@
             xmlns:html="http://www.w3.org/1999/xhtml"
             xmlns:change="http://www.rbs-change.eu/change-4.2/taglib/phptal">
 
-    <binding id="wContextualListToolbar" extends="layout.wBlockToolbar#wBaseBlockToolbar">
+    <binding id="wContextualListToolbar" extends="layout.cLayoutToolbars#wBaseBlockToolbar">
 
         <implementation>
 
