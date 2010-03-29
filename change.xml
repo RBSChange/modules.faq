@@ -4,25 +4,25 @@
   <type>change-module</type>
   <license>os</license>
   <repository>private</repository>
-  <version>3.0.1</version>
+  <version>3.0.2</version>
   <description>FAQ</description>
   <dependencies>
     <dependency>
       <name>change-lib/framework</name>
       <versions>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </versions>
     </dependency>
     <dependency>
       <name>change-module/generic</name>
       <versions>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </versions>
     </dependency>
     <dependency>
       <name>change-module/abstractdirectory</name>
       <versions>
-        <version>3.0.1</version>
+        <version>3.0.2</version>
       </versions>
     </dependency>
   </dependencies>
