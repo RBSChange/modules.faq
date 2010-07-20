@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
-  <entity id="faq-list">
-    <locale lang="fr">page de liste</locale>
-    <locale lang="en">list page</locale>
-    <locale lang="de">Listenseite</locale>
-  </entity>
-  <entity id="faq-detail">
-    <locale lang="fr">page de détail</locale>
-    <locale lang="en">detail page</locale>
-    <locale lang="de">Detailseite</locale>
-  </entity>
+	<entity id="faq-list">
+		<locale lang="fr">page de liste</locale>
+		<locale lang="en">list page</locale>
+		<locale lang="de">Listenseite</locale>
+	</entity>
+	<entity id="faq-detail">
+		<locale lang="fr">page de détail</locale>
+		<locale lang="en">detail page</locale>
+		<locale lang="de">Detailseite</locale>
+	</entity>
+	<entity id="form">
+		<locale lang="fr">formulaire de soumission</locale>
+	</entity>
 </localization>

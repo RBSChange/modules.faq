@@ -1,146 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <script>
-	<binding fileName="modules/list/persistentdocument/import/list_binding.xml" />
 	<binding fileName="modules/notification/persistentdocument/import/notification_binding.xml" />
 	<binding fileName="modules/form/persistentdocument/import/form_binding.xml" />
-	<binding fileName="modules/workflow/persistentdocument/import/workflow_binding.xml" />
+	<binding fileName="modules/inquiry/persistentdocument/import/inquiry_binding.xml" />
 	<binding fileName="modules/faq/persistentdocument/import/faq_binding.xml" />
 	
-	<rootfolder module="preferences">
-		<faqpreferences />
-	</rootfolder>
-	
+	<systemfolder module="notification" relatedmodule="faq">
+		<notification codename="modules_faq/messageFromAuthor" id="n1" label="Message envoyé par le demandeur"
+			subject="Message de l'auteur de la demande numéro {inquiryId}"
+			header="&lt;strong&gt;Message à propos de la {inquiryLink}.&lt;/strong&gt;" body="&lt;p&gt;{messageContents}&lt;/p&gt;"
+			availableparameters="{inquiryId}, {inquiryLabel}, {inquiryUrl}, {inquiryLink}, {inqiuryCreationdate}, {messageContents}" />
+
+		<notification codename="modules_faq/messageFromReceiver" id="n2" label="Message envoyé à un client"
+			subject="Message d'un destinataire de la demande numéro {inquiryId}"
+			header="&lt;strong&gt;Message à propos de la {inquiryLink}.&lt;/strong&gt;" body="&lt;p&gt;{messageContents}&lt;/p&gt;"
+			availableparameters="{inquiryId}, {inquiryLabel}, {inquiryUrl}, {inquiryLink}, {inqiuryCreationdate}, {messageContents}" />
+
+		<notification codename="modules_faq/closeInquiry" id="n3" label="Clôture de la demande"
+			subject="Clôture de la demande numéro {inquiryId}"
+			body="&lt;strong&gt;La {inquiryLink} vient d'être clôturée.&lt;/strong&gt;"
+			availableparameters="{inquiryId}, {inquiryLabel}, {inquiryUrl}, {inquiryLink}, {inqiuryCreationdate}" />
+	</systemfolder>
+
 	<systemfolder module="form" relatedmodule="faq">
-		<form formid="modules_faq/postnewfaq" label="Formulaire pour poser une question dans le module question/réponse" 
-			description="Fomulaire utilisé pour poser une question depuis le module question / réponse"
-			submitButton="Envoyer" confirmMessage="Nous avons bien reçu votre demande. Elle sera traitée dans les meilleurs délais."
-			markup="default">
-			
-			<fieldtext fieldName="firstname" label="Prénom" 
-				required="false" multiline="false" cols="50" maxlength="255"
-				validators="maxSize:255" />		
-
-			<fieldtext fieldName="lastname" label="Nom" 
-				required="true" multiline="false" cols="50" maxlength="255"
-				validators="blank:false;maxSize:255" />
-				
-			<fieldtext fieldName="postaladdress" label="Adresse" 
-				required="false" multiline="false" cols="50" maxlength="255"
-				validators="maxSize:255" />					
-
-			<fieldtext fieldName="postalcode" label="Code postal" 
-				required="false" multiline="false" cols="10" maxlength="20"
-				validators="maxSize:20" />	
-								
-			<fieldtext fieldName="city" label="Ville" 
-				required="false" multiline="false" cols="50" maxlength="255"
-				validators="maxSize:255" />					
-				
-			<fieldtext fieldName="phone" label="Téléphone" 
-				required="false" multiline="false" cols="50" maxlength="255"
-				validators="maxSize:255" />	
-				
-			<fieldtext fieldName="fax" label="Fax" 
-				required="false" multiline="false" cols="50" maxlength="255"
-				validators="maxSize:255" />					
-				
-			<fieldtext fieldName="email" label="Adresse e-mail" 
-				required="true" multiline="false" cols="50" maxlength="255"
-				validators="blank:false;maxSize:255;minSize:0;email:true" />				
-				
-			<fieldtext fieldName="question" label="Question" 
-				required="true" multiline="false" cols="50" maxlength="255"
-				validators="blank:false;maxSize:255" />																						
-		</form>	
-	</systemfolder>
-	
-	<systemfolder module="notification" relatedmodule="faq">	
-			<notification id="n0create"
-				label="Notification pour une nouvelle question"
-				codename="modules_faq/postnew"
-				availableparameters="{documentId}, {documentLabel}, {documentLang}, {documentPath}, {workflowId}, {workflowLabel}, {transitionId}, {transitionLabel}, {currentUserId}, {currentUserFullname}, {__LAST_COMMENTARY}, {__LAST_DECISION}"
-				subject="Une nouvelle question vient d'être posée : {documentLabel}"
-				body="Bonjour&lt;br/&gt; Vous recevez ce mail car une nouvelle question vient d'être posée sur le site internet."
-				/>
-				
-			<notification id="n0termination"
-				label="Question répondue"
-				codename="modules_faq/answer"
-				availableparameters="{documentId}, {documentLabel}, {documentLang}, {documentPath}, {workflowId}, {workflowLabel}, {transitionId}, {transitionLabel}, {currentUserId}, {currentUserFullname}, {__LAST_COMMENTARY}, {__LAST_DECISION}"
-				subject="La question '{documentLabel}' à été traitée."
-				body="Bonjour&lt;br/&gt; Vous recevez ce mail car vous venez de traiter une question en attente."
-				 />	
-				 
-			<notification id="n0cancellation"
-				label="Question déjà répondu"
-				codename="modules_faq/cancel"
-				availableparameters="{documentId}, {documentLabel}, {documentLang}, {documentPath}, {workflowId}, {workflowLabel}, {transitionId}, {transitionLabel}, {currentUserId}, {currentUserFullname}, {__LAST_COMMENTARY}, {__LAST_DECISION}"
-				subject="La question '{documentLabel}' à été traitée."
-				body="Bonjour&lt;br/&gt; Vous recevez ce mail car une question en attente vient d'être traitée."
-				 />	
-				 
-			<notification id="n1create"
-				label="Notification pour une question à classer"
-				codename="modules_faq/handlenew"
-				availableparameters="{documentId}, {documentLabel}, {documentLang}, {documentPath}, {workflowId}, {workflowLabel}, {transitionId}, {transitionLabel}, {currentUserId}, {currentUserFullname}, {__LAST_COMMENTARY}, {__LAST_DECISION}"
-				subject="Une nouvelle question est à classer : {documentLabel}"
-				body="Bonjour&lt;br/&gt; Vous recevez ce mail car une nouvelle question est à traiter."
-				/>
-				
-			<notification id="n1termination"
-				label="Question classée"
-				codename="modules_faq/handlefaq"
-				availableparameters="{documentId}, {documentLabel}, {documentLang}, {documentPath}, {workflowId}, {workflowLabel}, {transitionId}, {transitionLabel}, {currentUserId}, {currentUserFullname}, {__LAST_COMMENTARY}, {__LAST_DECISION}"
-				subject="La question '{documentLabel}' à été classée."
-				body="Bonjour&lt;br/&gt; Vous recevez ce mail car vous venez de traiter une question en attente."
-				 />	
-				 
-			<notification id="n1cancellation"
-				label="Question déjà classée"
-				codename="modules_faq/cancelhandlefaq"
-				availableparameters="{documentId}, {documentLabel}, {documentLang}, {documentPath}, {workflowId}, {workflowLabel}, {transitionId}, {transitionLabel}, {currentUserId}, {currentUserFullname}, {__LAST_COMMENTARY}, {__LAST_DECISION}"
-				subject="La question '{documentLabel}' à été classée."
-				body="Bonjour&lt;br/&gt; Vous recevez ce mail car une question en attente vient d'être traitée."
-				 />	
-	</systemfolder>
-	
-	<systemfolder module="workflow" relatedmodule="faq">
-		<workflow starttaskid="FAQWAITANSWER" label="Répondre à une question / réponse">
-		
-			<places>
-				<startplace id="pStart" label="Attente de réponse" description="Nouvel question en attente de réponse."/>
-
-				<place id="p2" label="Répondu" description="La réponse a été enregistrée." />
-
-				<endplace id="pEnd" label="Traitée" description="La question a été traitée."/>
-			</places>
-			
-			<transitions>
-				<transition id="t0" label="Ecriture de la réponse" description="Le ou les rédacteurs de réponses sont sélectionnés."
-						taskid="FAQWAITANSWER" 
-						trigger="USER" roleid="AnswerWriter"
-						actionname="faq_AnswerQuestionWorkflowaction" 
-						
-						creationnotification-refid="n0create"
-						terminationnotification-refid="n0termination"
-						cancellationnotification-refid="n0cancellation" />
-				
-				<transition id="t1" label="Choix de l'espace de stockage" description="Attend le choix de sauvegarde de la faq dans un dossier ou de la suppression."
-						taskid="FAQWAITANSWER" 
-						trigger="USER" roleid="ChooserToSave"
-						actionname="faq_ChooseSavePlaceWorkflowaction"
-						
-						creationnotification-refid="n1create"
-						terminationnotification-refid="n1termination"
-						cancellationnotification-refid="n1cancellation" />
-			</transitions>
-			
-			<arcs>
-				<arc direction="IN" place-refid="pStart" transition-refid="t0" arctype="SEQ" />
-				<arc direction="OUT" transition-refid="t0"  place-refid="p2" arctype="SEQ" />
-				<arc direction="IN" place-refid="p2" transition-refid="t1" arctype="SEQ" />
-				<arc direction="OUT" transition-refid="t1"  place-refid="pEnd" arctype="SEQ" />
-			</arcs>
-		</workflow>		
+		<inquiryform formid="modules_faq/newquestion" label="Soumission d'une question dans le module FAQ"
+			description="Soumission d'une question dans le module FAQ."	submitButton="Envoyer"
+			confirmMessage="Nous avons bien reçu votre demande. Elle sera traitée dans les meilleurs délais." markup="default"
+			useCaptcha="true" messageByAuthorNotification-refid="n1" messageByReceiverNotification-refid="n2"
+			closeInquiryNotification-refid="n3">
+			<fieldtext fieldName="lastname" label="Nom" required="false" multiline="false" cols="50" maxlength="255" initializeWithCurrentUserFirstname="true" />
+			<fieldtext fieldName="firstname" label="Prénom" required="false" multiline="false" cols="50" maxlength="255" initializeWithCurrentUserLastname="true" />
+			<fieldtext fieldName="question" label="Question" required="true" multiline="true" cols="50" />
+		</inquiryform>
 	</systemfolder>
 </script>

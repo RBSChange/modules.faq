@@ -3,7 +3,7 @@
 	<module>
 		<enabled>true</enabled>
 		<visible>true</visible>
-		<icon>question_and_answer</icon>
+		<icon>faq</icon>
 		<usetopic>true</usetopic>
 	</module>
 </config>

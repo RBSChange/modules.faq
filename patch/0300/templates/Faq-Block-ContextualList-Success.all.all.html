@@ -1,0 +1,29 @@
+<div tal:attributes="class php:'abstractdirectory-block ' . moduleName . '-abstractdirectory-block'">
+	<p tal:condition="containerParentParam" class="return-link">
+		<a change:currentPageLink="containerParentParam" change:translate="modules.abstractdirectory.frontoffice.BackToParentContainer"></a>
+	</p>
+
+	<ul tal:condition="formPage" class="mini-navigation">
+		<li><a change:link="document formPage" change:translate="modules.faq.frontoffice.LinkToForm"></a></li>
+	</ul>
+	
+	<div class="column-one">
+		<h3 class="title">${container/getLabelAsHtml}</h3>
+		<span tal:condition="not: messageContent">${itemsContent}</span>
+		<span tal:condition="messageContent">${messageContent}</span>
+	</div>
+	
+	<div class="column-two">
+		<tal:block tal:condition="menu" >
+			<p i18n:translate="modules.abstractdirectory.frontoffice.SubContainerMenuTitle"></p>
+			<tal:block change:menu="menuObject menu; itemName item; maxLevel 1; masterUlClass folder-vertical">
+				<a tal:attributes="href item/getUrl">${item/getLabel}</a>
+			</tal:block>
+			<p class="subfolder" change:translate="modules.abstractdirectory.frontoffice.NbSubContainerHelp"></p>
+		</tal:block>
+	</div>
+
+	<div class="cleaner"></div>
+
+	<tal:block change:paginator="paginator" />	
+</div>

@@ -3,11 +3,10 @@ class faq_Setup extends object_InitDataSetup
 {
 	public function install()
 	{
-
 		try
 		{
 			$scriptReader = import_ScriptReader::getInstance();
-       	 	$scriptReader->executeModuleScript('faq', 'init.xml');
+			$scriptReader->executeModuleScript('faq', 'init.xml');
 		}
 		catch (Exception $e)
 		{

@@ -29,60 +29,34 @@
 					
 	<rootfolder module="faq">
 		<linkedtopic refid="faqtopic">
-			<faq label="Praesent nisi nulla, rhoncus ac" publicationstatus="ACTIVE"
-				 question="Praesent nisi nulla, rhoncus ac ?"
-				 response="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
-			/>
+			<faq label="Praesent nisi nulla, rhoncus ac" publicationstatus="ACTIVE" question="Praesent nisi nulla, rhoncus ac ?"
+				 response="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus." />
 
-			<faq label="Integer ornare justo at risus facilisis eget" publicationstatus="ACTIVE" 
-				 question="Integer ornare justo at risus facilisis eget ?"
-				 response="Integer ornare justo at risus facilisis eget dignissim ligula vulputate. Maecenas sit amet felis ante, sed hendrerit nulla. In sit amet tortor at mi commodo ultricies. Phasellus a gravida lectus. Vivamus ultricies erat quis orci posuere molestie. Nulla aliquet venenatis luctus. Phasellus nunc orci, pharetra eu facilisis et, egestas id arcu. Ut scelerisque nunc ac arcu adipiscing a volutpat nibh sodales. Suspendisse ac egestas leo. Proin vulputate interdum tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-			/>
+			<faq label="Integer ornare justo at risus facilisis eget" publicationstatus="ACTIVE" question="Integer ornare justo at risus facilisis eget ?"
+				 response="Integer ornare justo at risus facilisis eget dignissim ligula vulputate. Maecenas sit amet felis ante, sed hendrerit nulla. In sit amet tortor at mi commodo ultricies. Phasellus a gravida lectus. Vivamus ultricies erat quis orci posuere molestie. Nulla aliquet venenatis luctus. Phasellus nunc orci, pharetra eu facilisis et, egestas id arcu. Ut scelerisque nunc ac arcu adipiscing a volutpat nibh sodales. Suspendisse ac egestas leo. Proin vulputate interdum tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos." />
 			
-			<faq label="Duis eros tellus, rutrum eu semper eget" publicationstatus="ACTIVE" 
-				 question="Duis eros tellus, rutrum eu semper eget ?"
-				 response="Duis eros tellus, rutrum eu semper eget, imperdiet eu ligula. Fusce pretium est vitae nunc cursus malesuada. Maecenas metus urna, semper quis pulvinar vitae; imperdiet quis risus. Praesent eget magna eu magna eleifend volutpat id at tellus. Aliquam vehicula leo a lorem facilisis blandit. Fusce non augue ac turpis posuere cursus! Fusce ut nisl sit amet tortor hendrerit auctor a non libero. Nunc cursus mauris nunc, nec facilisis quam"
-			/>
+			<faq label="Duis eros tellus, rutrum eu semper eget" publicationstatus="ACTIVE" question="Duis eros tellus, rutrum eu semper eget ?"
+				 response="Duis eros tellus, rutrum eu semper eget, imperdiet eu ligula. Fusce pretium est vitae nunc cursus malesuada. Maecenas metus urna, semper quis pulvinar vitae; imperdiet quis risus. Praesent eget magna eu magna eleifend volutpat id at tellus. Aliquam vehicula leo a lorem facilisis blandit. Fusce non augue ac turpis posuere cursus! Fusce ut nisl sit amet tortor hendrerit auctor a non libero. Nunc cursus mauris nunc, nec facilisis quam" />
 
-			<faq label="Quisque a nibh tellus" publicationstatus="ACTIVE" 
-				 question="Quisque a nibh tellus ?"
-				 response="Quisque a nibh tellus, quis porttitor nisl. Nam bibendum imperdiet laoreet. Vestibulum in ligula nibh. Vivamus magna enim, posuere quis vestibulum et, mattis vel arcu. Aenean suscipit egestas varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sodales convallis hendrerit. Cras orci ligula, convallis nec dictum vitae, vestibulum vel arcu. Proin at dolor elit; tincidunt facilisis quam. Aliquam luctus justo vitae orci porta sit amet viverra massa varius. Ut eu tellus non ipsum blandit scelerisque in gravida lectus."
-			/>
+			<faq label="Quisque a nibh tellus" publicationstatus="ACTIVE" question="Quisque a nibh tellus ?"
+				 response="Quisque a nibh tellus, quis porttitor nisl. Nam bibendum imperdiet laoreet. Vestibulum in ligula nibh. Vivamus magna enim, posuere quis vestibulum et, mattis vel arcu. Aenean suscipit egestas varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sodales convallis hendrerit. Cras orci ligula, convallis nec dictum vitae, vestibulum vel arcu. Proin at dolor elit; tincidunt facilisis quam. Aliquam luctus justo vitae orci porta sit amet viverra massa varius. Ut eu tellus non ipsum blandit scelerisque in gravida lectus." />
 
-			<faq label="Proin ultrices sagittis sollicitudin" publicationstatus="ACTIVE" 
-				 question="Proin ultrices sagittis sollicitudin ?"
-				 response="Proin ultrices sagittis sollicitudin. In hac habitasse platea dictumst. Mauris nec tellus eros, at tempor lorem. Sed interdum tincidunt rhoncus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc in augue orci, ut tempor ipsum. Ut interdum nisl nec urna semper id fermentum metus fermentum. Nullam rutrum gravida lectus ut tristique. In viverra elementum nibh, eu posuere enim porttitor vitae. Pellentesque volutpat ullamcorper tellus vel sagittis. Cras consectetur ligula ut nulla porttitor malesuada. In hac habitasse platea dictumst. Fusce posuere malesuada felis; quis vestibulum eros mollis eu. Mauris accumsan porttitor vulputate."
-			/>
+			<faq label="Proin ultrices sagittis sollicitudin" publicationstatus="ACTIVE" question="Proin ultrices sagittis sollicitudin ?"
+				 response="Proin ultrices sagittis sollicitudin. In hac habitasse platea dictumst. Mauris nec tellus eros, at tempor lorem. Sed interdum tincidunt rhoncus. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc in augue orci, ut tempor ipsum. Ut interdum nisl nec urna semper id fermentum metus fermentum. Nullam rutrum gravida lectus ut tristique. In viverra elementum nibh, eu posuere enim porttitor vitae. Pellentesque volutpat ullamcorper tellus vel sagittis. Cras consectetur ligula ut nulla porttitor malesuada. In hac habitasse platea dictumst. Fusce posuere malesuada felis; quis vestibulum eros mollis eu. Mauris accumsan porttitor vulputate." />
 
-			<faq label="Integer ornare justo at risus facilisis eget" publicationstatus="ACTIVE" 
-				 question="Integer ornare justo at risus facilisis eget ?"
-				 response="Integer ornare justo at risus facilisis eget dignissim ligula vulputate. Maecenas sit amet felis ante, sed hendrerit nulla. In sit amet tortor at mi commodo ultricies. Phasellus a gravida lectus. Vivamus ultricies erat quis orci posuere molestie. Nulla aliquet venenatis luctus. Phasellus nunc orci, pharetra eu facilisis et, egestas id arcu. Ut scelerisque nunc ac arcu adipiscing a volutpat nibh sodales. Suspendisse ac egestas leo. Proin vulputate interdum tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-			/>
+			<faq label="Integer ornare justo at risus facilisis eget" publicationstatus="ACTIVE" question="Integer ornare justo at risus facilisis eget ?"
+				 response="Integer ornare justo at risus facilisis eget dignissim ligula vulputate. Maecenas sit amet felis ante, sed hendrerit nulla. In sit amet tortor at mi commodo ultricies. Phasellus a gravida lectus. Vivamus ultricies erat quis orci posuere molestie. Nulla aliquet venenatis luctus. Phasellus nunc orci, pharetra eu facilisis et, egestas id arcu. Ut scelerisque nunc ac arcu adipiscing a volutpat nibh sodales. Suspendisse ac egestas leo. Proin vulputate interdum tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos." />
 
-			<faq label="Praesent nisi nulla, rhoncus ac" 
-				 question="Praesent nisi nulla, rhoncus ac ?"
-				 response="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
-			/>
+			<faq label="Praesent nisi nulla, rhoncus ac" question="Praesent nisi nulla, rhoncus ac ?"
+				 response="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus." />
 													
 			<topic byLabel="Sous rubrique">
+				<faq label="Quisque a nibh tellus" publicationstatus="ACTIVE" question="Quisque a nibh tellus ?"
+					 response="Quisque a nibh tellus, quis porttitor nisl. Nam bibendum imperdiet laoreet. Vestibulum in ligula nibh. Vivamus magna enim, posuere quis vestibulum et, mattis vel arcu. Aenean suscipit egestas varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sodales convallis hendrerit. Cras orci ligula, convallis nec dictum vitae, vestibulum vel arcu. Proin at dolor elit; tincidunt facilisis quam. Aliquam luctus justo vitae orci porta sit amet viverra massa varius. Ut eu tellus non ipsum blandit scelerisque in gravida lectus." />
 				
-				<faq label="Quisque a nibh tellus" publicationstatus="ACTIVE" 
-					 question="Quisque a nibh tellus ?"
-					 response="Quisque a nibh tellus, quis porttitor nisl. Nam bibendum imperdiet laoreet. Vestibulum in ligula nibh. Vivamus magna enim, posuere quis vestibulum et, mattis vel arcu. Aenean suscipit egestas varius. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sodales convallis hendrerit. Cras orci ligula, convallis nec dictum vitae, vestibulum vel arcu. Proin at dolor elit; tincidunt facilisis quam. Aliquam luctus justo vitae orci porta sit amet viverra massa varius. Ut eu tellus non ipsum blandit scelerisque in gravida lectus."
-				/>
-				
-				<faq label="Integer ornare justo at risus facilisis eget" 
-					 question="Integer ornare justo at risus facilisis eget ?"
-					 response="Integer ornare justo at risus facilisis eget dignissim ligula vulputate. Maecenas sit amet felis ante, sed hendrerit nulla. In sit amet tortor at mi commodo ultricies. Phasellus a gravida lectus. Vivamus ultricies erat quis orci posuere molestie. Nulla aliquet venenatis luctus. Phasellus nunc orci, pharetra eu facilisis et, egestas id arcu. Ut scelerisque nunc ac arcu adipiscing a volutpat nibh sodales. Suspendisse ac egestas leo. Proin vulputate interdum tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos."
-				/>
-			
+				<faq label="Integer ornare justo at risus facilisis eget" question="Integer ornare justo at risus facilisis eget ?"
+					 response="Integer ornare justo at risus facilisis eget dignissim ligula vulputate. Maecenas sit amet felis ante, sed hendrerit nulla. In sit amet tortor at mi commodo ultricies. Phasellus a gravida lectus. Vivamus ultricies erat quis orci posuere molestie. Nulla aliquet venenatis luctus. Phasellus nunc orci, pharetra eu facilisis et, egestas id arcu. Ut scelerisque nunc ac arcu adipiscing a volutpat nibh sodales. Suspendisse ac egestas leo. Proin vulputate interdum tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos." />
 			</topic>
 		</linkedtopic>
 	</rootfolder>
-	
-	<preferences label="&amp;modules.faq.document.preferences.Edition-form-title;" 
-		nbitemperpage="5" 
-		msgforemptyfolder="Cette rubrique ne contient pas de question."
-		activequestion="false"
-	 />
 </script>

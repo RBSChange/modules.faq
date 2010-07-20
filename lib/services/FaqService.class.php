@@ -5,7 +5,7 @@ class faq_FaqService extends f_persistentdocument_DocumentService
 	 * @var faq_FaqService
 	 */
 	private static $instance;
-
+	
 	/**
 	 * @return faq_FaqService
 	 */
@@ -17,7 +17,7 @@ class faq_FaqService extends f_persistentdocument_DocumentService
 		}
 		return self::$instance;
 	}
-
+	
 	/**
 	 * @return faq_persistentdocument_faq
 	 */
@@ -25,7 +25,7 @@ class faq_FaqService extends f_persistentdocument_DocumentService
 	{
 		return $this->getNewDocumentInstanceByModelName('modules_faq/faq');
 	}
-
+	
 	/**
 	 * Create a query based on 'modules_faq/faq' model
 	 * @return f_persistentdocument_criteria_Query
@@ -34,59 +34,29 @@ class faq_FaqService extends f_persistentdocument_DocumentService
 	{
 		return $this->pp->createQuery('modules_faq/faq');
 	}
-
+	
 	/**
 	 * @param faq_persistentdocument_faq $document
 	 * @param Integer $parentNodeId Parent node ID where to save the document (optionnal => can be null !).
 	 * @return void
 	 */
-	protected function preSave($document, $parentNodeId = null)
+	protected function preSave($document, $parentNodeId)
 	{
-		$document->setLabel( f_util_StringUtils::shortenString($document->getQuestion(), 80) );
+		$document->setLabel(f_util_StringUtils::shortenString($document->getQuestion(), 80));
 	}
-
+	
 	/**
-	 * Add a response for the faq without pass by the method save of document to skip the workflow status
-	 *
-	 * @param faq_persistentdocument_faq $document
-	 * @param String $response
-	 * @return boolean
+	 * @param website_persistentdocument_topic $parent
+	 * @param string $order
 	 */
-	public function addResponse($document, $response)
+	public function getByContainer($parent, $order = null)
 	{
-		try
+		$query = $this->createQuery()->add(Restrictions::published())->add(Restrictions::childOf($parent->getId()));
+		if ($order == 'alpha')
 		{
-			$this->tm->beginTransaction();
-
-			$document->setResponse($response);
-
-			// Set the response of document by persistent provider
-			$this->pp->updateDocument($document);
-
-			$this->tm->commit();
-
-			// Webcontact associated to faq
-			$webContact = $document->getWebcontact();
-
-			if (!is_null($webContact) )
-			{
-				// Send email for the webcontact who has post the question
-				$mailerService = MailService::getInstance();
-				$message = $mailerService->getNewMailMessage();
-				$message->setSender(Framework::getDefaultNoReplySender());
-				$message->setReceiver( implode(',', $webContact->getEmailAddresses() ) );
-				$message->setSubject(f_Locale::translate('&modules.faq.mail.answer.Subject;'));
-				$message->setHtmlAndTextBody(f_Locale::translate('&modules.faq.mail.answer.message;', array('question' => $document->getQuestion(), 'answer' => $response)));
-				$mailerService->send($message);
-			}
-
-			return true;
+			$query->addOrder(Order::asc('document_label'));
 		}
-		catch (Exception $e)
-		{
-			$this->tm->rollBack($e);
-		}
-		return false;
+		return $query->find();
 	}
 	
 	/**
@@ -98,9 +68,8 @@ class faq_FaqService extends f_persistentdocument_DocumentService
 		$reponse = $document->getResponse();
 		if (!empty($reponse))
 		{
-		    return parent::isPublishable($document);
-		}    
+			return parent::isPublishable($document);
+		}
 		return false;
 	}
-
 }

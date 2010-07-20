@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
-  <entity id="linktoform">
-    <locale lang="fr">poser une question</locale>
-    <locale lang="en">ask a question</locale>
-    <locale lang="de">eine Frage stellen</locale>
-  </entity>
+	<entity id="linktoform">
+		<locale lang="fr">poser une question</locale>
+		<locale lang="en">ask a question</locale>
+		<locale lang="de">eine Frage stellen</locale>
+	</entity>
+	<entity id="empty-container">
+		<locale lang="fr">Cette rubrique ne contient pas de question.</locale>
+	</entity>
 </localization>

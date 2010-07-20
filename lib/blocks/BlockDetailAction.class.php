@@ -1,26 +1,23 @@
 <?php
-class faq_BlockDetailAction extends abstractdirectory_BlockDetailAction
+/**
+ * faq_BlockDetailAction
+ * @package modules.faq.lib.blocks
+ */
+class faq_BlockDetailAction extends website_BlockAction
 {
 	/**
-     * @param block_BlockContext $context
-     * @param block_BlockRequest $request
-     */
-	public function initialize($context, $request)
+	 * @param f_mvc_Request $request
+	 * @param f_mvc_Response $response
+	 * @return String
+	 */
+	public function execute($request, $response)
 	{
-		parent::initialize($context, $request);
-		$this->setModuleName('faq');
-		$this->setComponentName('faq');
-		$this->setViewModuleName('faq');
+		$question = $this->getDocumentParameter();
+		if (!($question instanceof faq_persistentdocument_faq))
+		{
+			return website_BlockView::NONE;
+		}
+		$request->setAttribute('item', $question);
+		return $this->getTemplateByFullName('modules_faq', 'Faq-Block-DetailFaq-Success');
 	}
-}
-
-
-class faq_BlockDetailSuccessView extends abstractdirectory_BlockDetailSuccessView
-{
-	
-}
-
-class faq_BlockDetailDummyView extends abstractdirectory_BlockDetailDummyView
-{
-	
 }

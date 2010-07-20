@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
-  <entity id="document-name">
-    <locale lang="fr">question / réponse</locale>
-    <locale lang="de">Frage / Antwort</locale>
-  </entity>
-  <entity id="edition-form-title">
-    <locale lang="fr">édition d'une question / réponse</locale>
-    <locale lang="en">question</locale>
-    <locale lang="de">Frage / Antwort bearbeiten</locale>
-  </entity>
-  <entity id="question">
-    <locale lang="fr">question</locale>
-    <locale lang="en">question</locale>
-    <locale lang="de">Frage</locale>
-  </entity>
-  <entity id="question-help">
-    <locale lang="fr">indiquer la question</locale>
-    <locale lang="en">question</locale>
-    <locale lang="de">die Frage angeben</locale>
-  </entity>
-  <entity id="response">
-    <locale lang="fr">réponse</locale>
-    <locale lang="en">response</locale>
-    <locale lang="de">Antwort</locale>
-  </entity>
-  <entity id="response-help">
-    <locale lang="fr">indiquer la réponse</locale>
-    <locale lang="en">response</locale>
-    <locale lang="de">die Antwort angeben</locale>
-  </entity>
+	<entity id="document-name">
+		<locale lang="fr">question / réponse</locale>
+		<locale lang="de">Frage / Antwort</locale>
+	</entity>
+	<entity id="question">
+		<locale lang="fr">question</locale>
+		<locale lang="en">question</locale>
+		<locale lang="de">Frage</locale>
+	</entity>
+	<entity id="response">
+		<locale lang="fr">réponse</locale>
+		<locale lang="en">response</locale>
+		<locale lang="de">Antwort</locale>
+	</entity>
 </localization>

@@ -1,6 +1,3 @@
 treechildren::-moz-tree-image(modules_faq_faq){
-	list-style-image: url(/changeicons/small/question_and_answer.png) ;
-}
-treechildren::-moz-tree-image(modules_faq_preferences){
-	list-style-image: url(/changeicons/small/question_and_answer.png) ;
+	list-style-image: url(/changeicons/small/question.png) ;
 }

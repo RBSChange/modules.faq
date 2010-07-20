@@ -8,10 +8,9 @@
 		<rule redirection="faq/ViewList">
 			<template>/faq/list/</template>
 		</rule>
-
+		
 		<rule redirection="faq/ViewList" lang="fr">
 			<template>/faq/liste/</template>
 		</rule>
-
 	</rules>
 </urlrewriting>

@@ -1,0 +1,4 @@
+<h3 change:h="">
+	<a tal:define="anchorName string:faq_${item/getId}" tal:attributes="name anchorName; id anchorName; title item/getQuestion">${item/getQuestionAsHtml}</a>
+</h3>
+<p>${item/getResponseAsHtml}</p>

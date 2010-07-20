@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <localization>
-  <entity id="ContextualList">
-    <locale lang="fr">liste de questions / réponses</locale>
-    <locale lang="en">questions / answers list</locale>
-    <locale lang="de">Frage / Antwort Liste</locale>
-  </entity>
-  <entity id="Detail">
-    <locale lang="fr">détail d'une question / réponse</locale>
-    <locale lang="en">question / answer detail</locale>
-    <locale lang="de">Detail einer Frage / Antwort</locale>
-  </entity>
+	<entity id="questionlist.title">
+		<locale lang="fr">liste de questions / réponses</locale>
+		<locale lang="en">questions / answers list</locale>
+	</entity>
+	<entity id="questionlist.container">
+		<locale lang="fr">conteneur</locale>
+	</entity>
+	<entity id="questionlist.container-help">
+		<locale lang="fr">Conteneur des questions à afficher. Laisser vide pour afficher la liste contextuelle des questions.</locale>
+	</entity>
+	<entity id="questionlist.order">
+		<locale lang="fr">tri</locale>
+	</entity>
+	<entity id="questionlist.nbitemsperpage">
+		<locale lang="fr">nombre d'éléments par page</locale>
+	</entity>
+	
+	<entity id="detail.title">
+		<locale lang="fr">détail d'une question / réponse</locale>
+		<locale lang="en">question / answer detail</locale>
+		<locale lang="de">Detail einer Frage / Antwort</locale>
+	</entity>
+	
+	<!-- Old blocks for compatibility -->
+	<entity id="contextualList.title">
+		<locale lang="fr">liste de questions / réponses</locale>
+		<locale lang="en">questions / answers list</locale>
+		<locale lang="de">Frage / Antwort Liste</locale>
+	</entity>
+	<entity id="contextuallist.order">
+		<locale lang="fr">tri</locale>
+	</entity>
+	<entity id="contextuallist.navigation">
+		<locale lang="fr">navigation</locale>
+	</entity>
+	<entity id="contextuallist.nbitemsperpage">
+		<locale lang="fr">nombre d'éléments par page</locale>
+	</entity>
+	<entity id="topic.title">
+		<locale lang="fr">liste de questions / réponses</locale>
+		<locale lang="en">questions / answers list</locale>
+		<locale lang="de">Frage / Antwort Liste</locale>
+	</entity>
+	<entity id="topic.order">
+		<locale lang="fr">tri</locale>
+	</entity>
+	<entity id="topic.navigation">
+		<locale lang="fr">navigation</locale>
+	</entity>
+	<entity id="topic.nbitemsperpage">
+		<locale lang="fr">nombre d'éléments par page</locale>
+	</entity>
 </localization>
