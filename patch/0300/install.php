@@ -11,7 +11,7 @@ class faq_patch_0300 extends patch_BasePatch
 	public function execute()
 	{
 		// Import the inquiry form.
-		$this->executeModuleScript('faq', 'init.xml');
+		$this->executeModuleScript('init.xml', 'faq');
 		
 		// Generate websitetopicsfolders.
 		$rootfolderId = ModuleService::getInstance()->getRootFolderId('faq');

@@ -32,4 +32,17 @@ class faq_BlockContextuallistAction extends abstractdirectory_BlockContextuallis
 		}
 		$this->setParameter('msgKeyForEmptyFolder', 'modules.faq.frontoffice.Empty-container');
 	}
+	
+	/**
+	 * @deprecated
+	 */
+	protected function getItemPerPage()
+	{
+		$nbItemPerPage = $this->getParameter('nbItemsPerPage');
+		if ($nbItemPerPage < 1)
+		{
+			$nbItemPerPage = 10;
+		}
+		return $nbItemPerPage;
+	}
 }
