@@ -7,7 +7,9 @@
 				<fieldlistitem value="manual" labeli18n="modules.faq.bo.general.Manual" />
 				<fieldlistitem value="alpha" labeli18n="modules.faq.bo.general.Alphanumeric" />
 			</parameter>
-			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" hidehelp="true" />
+			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" hidehelp="true">
+				<constraints>min:1</constraints>
+			</parameter>
 		</parameters>
 	</block>	
 	<block type="modules_faq_detail" icon="question" label="&amp;modules.faq.bo.blocks.detail.Title;" />
@@ -15,28 +17,32 @@
 	<!-- Old blocks for compatibility -->
 	<block type="modules_faq_contextuallist" icon="list-block" label="&amp;modules.faq.bo.blocks.contextualList.title;" hidden="true">
 		<parameters>
-			<parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist">
+			<parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist" hidehelp="true">
 				<fieldlistitem value="manual" labeli18n="modules.faq.bo.general.Manual" />
 				<fieldlistitem value="alpha" labeli18n="modules.faq.bo.general.Alphanumeric" />
 			</parameter>
-			<parameter name="navigation" type="Boolean" min-occurs="1" default-value="onlycontainer" fieldtype="dropdownlist">
+			<parameter name="navigation" type="Boolean" min-occurs="1" default-value="onlycontainer" fieldtype="dropdownlist" hidehelp="true">
 				<fieldlistitem value="onlycontainer" labeli18n="modules.faq.bo.general.OnlyContainer" />
 				<fieldlistitem value="navigation" labeli18n="modules.faq.bo.general.WithNavigation" />
 			</parameter>
-			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" />
+			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" hidehelp="true">
+				<constraints>min:1</constraints>
+			</parameter>
 		</parameters>
 	</block>
 	<block type="modules_faq_topic" icon="list-block" label="&amp;modules.faq.bo.blocks.topic.Title;" hidden="true">
 		<parameters>
-			<parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist">
+			<parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist" hidehelp="true">
 				<fieldlistitem value="manual" labeli18n="modules.faq.bo.general.Manual" />
 				<fieldlistitem value="alpha" labeli18n="modules.faq.bo.general.Alphanumeric" />
 			</parameter>
-			<parameter name="navigation" type="Boolean" min-occurs="1" default-value="onlycontainer" fieldtype="dropdownlist">
+			<parameter name="navigation" type="Boolean" min-occurs="1" default-value="onlycontainer" fieldtype="dropdownlist" hidehelp="true">
 				<fieldlistitem value="onlycontainer" labeli18n="modules.faq.bo.general.OnlyContainer" />
 				<fieldlistitem value="navigation" labeli18n="modules.faq.bo.general.WithNavigation" />
 			</parameter>
-			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" />
+			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" hidehelp="true">
+				<constraints>min:1</constraints>
+			</parameter>
 		</parameters>
 	</block>
 </blocks>
