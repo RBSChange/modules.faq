@@ -27,7 +27,7 @@
 			description="Soumission d'une question dans le module FAQ."	submitButton="Envoyer"
 			confirmMessage="Nous avons bien reçu votre demande. Elle sera traitée dans les meilleurs délais." markup="default"
 			useCaptcha="true" messageByAuthorNotification-refid="n1" messageByReceiverNotification-refid="n2"
-			closeInquiryNotification-refid="n3">
+			closeInquiryNotification-refid="n3" secured="false">
 			<fieldtext fieldName="lastname" label="Nom" required="false" multiline="false" cols="50" maxlength="255" initializeWithCurrentUserFirstname="true" />
 			<fieldtext fieldName="firstname" label="Prénom" required="false" multiline="false" cols="50" maxlength="255" initializeWithCurrentUserLastname="true" />
 			<fieldtext fieldName="question" label="Question" required="true" multiline="true" cols="50" />
