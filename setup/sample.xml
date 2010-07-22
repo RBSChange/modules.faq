@@ -14,7 +14,7 @@
 				 navigationVisibility="hidden">
 				<tag name="functional_faq_faq-list" />
 				<changecontent for="content-block">
-					<changeblock type="modules_faq_contextuallist" />
+					<changeblock type="modules_faq_questionList" />
 				</changecontent>
 			</page>
 			
