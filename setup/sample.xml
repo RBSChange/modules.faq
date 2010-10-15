@@ -10,15 +10,14 @@
 			
 			<topic label="A venir..."></topic>
 			
-			<page label="Foire aux questions" isIndexPage="true" indexingstatus="false"
-				 navigationVisibility="hidden">
+			<page label="Foire aux questions" isIndexPage="true" indexingstatus="false" navigationVisibility="hidden">
 				<tag name="functional_faq_faq-list" />
 				<changecontent for="content-block">
 					<changeblock type="modules_faq_questionList" />
 				</changecontent>
 			</page>
 			
-			<page label="Question / réponses" isIndexPage="false" indexingstatus="false" navigationVisibility="hidden">
+			<page label="Question / réponses" indexingstatus="false" navigationVisibility="hidden">
 				<tag name="functional_faq_faq-detail" />
 				<changecontent for="content-block">
 					<changeblock type="modules_faq_detail" />
