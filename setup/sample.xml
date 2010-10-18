@@ -15,6 +15,7 @@
 				<changecontent for="content-block">
 					<changeblock type="modules_faq_questionList" />
 				</changecontent>
+				<execute method="setPageRefAsIndex" />
 			</page>
 			
 			<page label="Question / réponses" indexingstatus="false" navigationVisibility="hidden">
