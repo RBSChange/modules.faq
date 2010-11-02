@@ -95,11 +95,11 @@
 		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
 		<action name="createFaq" permission="Insert_faq" icon="add" label="&amp;modules.faq.bo.actions.Create-Faq;" />
 		<action name="move" permission="Move" icon="up_down" label="&amp;modules.uixul.bo.actions.Move;" />
-		<action name="delete" permission="Delete" icon="delete" label="&amp;amp;modules.uixul.bo.actions.Delete;" />
-		<action name="activate" permission="Activate" icon="activate" label="&amp;amp;modules.uixul.bo.actions.Activate;" />
-		<action name="deactivated" permission="Deactivated" icon="deactivated" label="&amp;amp;modules.uixul.bo.actions.Deactivate;" />
-		<action name="reactivate" permission="ReActivate" icon="reactivate" label="&amp;amp;modules.uixul.bo.actions.ReActivate;" />
-		<action name="openFolder" icon="open-folder" label="&amp;amp;modules.uixul.bo.actions.OpenFolder;" />
+		<action name="delete" permission="Delete" icon="delete" label="&amp;modules.uixul.bo.actions.Delete;" />
+		<action name="activate" permission="Activate" icon="activate" label="&amp;modules.uixul.bo.actions.Activate;" />
+		<action name="deactivated" permission="Deactivated" icon="deactivated" label="&amp;modules.uixul.bo.actions.Deactivate;" />
+		<action name="reactivate" permission="ReActivate" icon="reactivate" label="&amp;modules.uixul.bo.actions.ReActivate;" />
+		<action name="openFolder" icon="open-folder" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
 		<action name="openTopicOrder" single="true" permission="Order" icon="sort" label="&amp;modules.uixul.bo.actions.Set-children-order;"/>
 		<action name="openTreeNodeOrder" single="true" permission="Order" icon="sort" label="&amp;modules.uixul.bo.actions.Set-children-order;" />
 		<action name="addTopic" permission="GetDialogTopicTree" icon="add-topic" label="&amp;modules.uixul.bo.actions.AddTopic;" />
