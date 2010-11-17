@@ -29,10 +29,10 @@ class faq_BlockQuestionListAction extends website_BlockAction
 		}
 		
 		// Get the page with the tag for the form.
-		$ws = website_WebsiteModuleService::getInstance();
 		try 
 		{
-			$formPage = $ws->getDocumentByContextualTag('contextual_website_website_form', $ws->getCurrentWebsite());
+			$website = website_WebsiteModuleService::getInstance()->getCurrentWebsite();
+			$formPage = TagService::getInstance()->getDocumentByContextualTag('contextual_website_website_form', $website);
 			$request->setAttribute('formPage', $formPage);
 		}
 		catch (TagException $e)
