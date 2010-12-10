@@ -14,6 +14,8 @@
 			<permission name="GetDialogTopicTree" />
 			<permission name="Remove.topic" />
 			<permission name="EditLocale"/>
+			<permission name="Deactivated.*" />
+			<permission name="ReActivate.*" />
 		</role>
 		<role name="Writer" extend="Guest">
 			<permission name="Order" />
@@ -24,6 +26,8 @@
 			<permission name="Delete.*" />
 			<permission name="Insert.*" />
 			<permission name="Update.*" />
+			<permission name="Deactivated.faq" />
+                        <permission name="ReActivate.faq" />
 		</role>
 		<role name="Translator" extend="Guest">
 			<permission name="LoadForTranslation.*" />
