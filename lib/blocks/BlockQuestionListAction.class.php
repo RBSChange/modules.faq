@@ -24,7 +24,7 @@ class faq_BlockQuestionListAction extends website_BlockAction
 		if (count($items) > 0)
 		{
 			$nbItemPerPage = $configuration->getNbItemsPerPage();
-			$paginator = new paginator_Paginator($this->moduleName, $request->getParameter(paginator_Paginator::REQUEST_PARAMETER_NAME, 1), $items, $nbItemPerPage);
+			$paginator = new paginator_Paginator($this->getModuleName(), $request->getParameter(paginator_Paginator::REQUEST_PARAMETER_NAME, 1), $items, $nbItemPerPage);
 			$request->setAttribute('paginator', $paginator);
 		}
 		
