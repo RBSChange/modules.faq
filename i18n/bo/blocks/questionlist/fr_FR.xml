@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.bo.blocks.questionlist" lcid="fr_FR">
+  <key id="title">liste de questions / réponses</key>
+  <key id="container">conteneur</key>
+  <key id="container-help">Conteneur des questions à afficher. Laisser vide pour afficher la liste contextuelle des questions.</key>
+  <key id="order">tri</key>
+  <key id="nbitemsperpage">nombre d'éléments par page</key>
+</i18n>

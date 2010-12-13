@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.errors" lcid="de_DE">
+  <key id="modules-faq-move-rootfolder">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Rubrik hinzufügen″</key>
+  <key id="modules-faq-remove-topic">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Rubrik löschen″</key>
+  <key id="modules-faq-order">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Reihenfolge der Elemente ändern″</key>
+  <key id="modules-faq-activate-faq">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Eine faq aktivieren″</key>
+  <key id="modules-faq-cancel-faq">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Eine faq abbrechen″</key>
+  <key id="modules-faq-enabled">Sie besitzen nicht die Rechte folgende Aktion auszuführen: ″Zugang zum Modul″</key>
+</i18n>

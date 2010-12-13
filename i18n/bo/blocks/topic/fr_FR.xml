@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.bo.blocks.topic" lcid="fr_FR">
+  <key id="title">liste de questions / réponses</key>
+  <key id="order">tri</key>
+  <key id="navigation">navigation</key>
+  <key id="nbitemsperpage">nombre d'éléments par page</key>
+</i18n>

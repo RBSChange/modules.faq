@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.document.faq" lcid="fr_FR">
+  <key id="document-name">question / réponse</key>
+  <key id="question">question</key>
+  <key id="response">réponse</key>
+</i18n>

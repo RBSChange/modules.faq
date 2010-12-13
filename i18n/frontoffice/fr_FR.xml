@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.frontoffice" lcid="fr_FR">
+  <key id="linktoform">poser une question</key>
+  <key id="empty-container">Cette rubrique ne contient pas de question.</key>
+</i18n>

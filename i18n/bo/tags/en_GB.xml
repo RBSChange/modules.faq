@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.bo.tags" lcid="en_GB">
+  <key id="faq-list">list page</key>
+  <key id="faq-detail">detail page</key>
+</i18n>

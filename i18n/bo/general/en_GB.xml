@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.bo.general" lcid="en_GB">
+  <key id="module-name">FAQ</key>
+  <key id="system-folder-name">FAQ</key>
+  <key id="tree-root-name">FAQ</key>
+  <key id="alphanumeric">alphanumeric</key>
+  <key id="manual">manual</key>
+  <key id="onlycontainer">folder only</key>
+  <key id="withnavigation">show navigation</key>
+</i18n>
