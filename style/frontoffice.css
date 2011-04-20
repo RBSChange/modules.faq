@@ -7,6 +7,3 @@
 .modules-faq .questions li{
 	margin-bottom: 20px;
 }
-
-/** Styles for old deprecated blocks */
-@import url(/modules/faq/style/frontoffice-old.css);
