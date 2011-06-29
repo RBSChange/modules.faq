@@ -20,11 +20,5 @@
 				<version>3.5.0</version>
 			</versions>
 		</dependency>
-		<dependency>
-			<name>change-module/abstractdirectory</name>
-			<versions>
-				<version>3.5.0</version>
-			</versions>
-		</dependency>
 	</dependencies>
 </change>
