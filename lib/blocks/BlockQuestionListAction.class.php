@@ -56,7 +56,7 @@ class faq_BlockQuestionListAction extends website_BlockAction
 		{
 			return $container;
 		}
-		$container = $this->getPage()->getParent();
+		$container = $this->getContext()->getParent();
 		if ($container instanceof website_persistentdocument_topic)
 		{
 			return $container;
