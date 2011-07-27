@@ -1,5 +1,5 @@
 <ul tal:condition="formPage" class="mini-navigation">
-	<li><a change:link="document formPage" change:translate="modules.faq.frontoffice.LinkToForm"></a></li>
+	<li><a change:link="document formPage" tal:content="trans:m.faq.frontoffice.linktoform,ucf"></a></li>
 </ul>
 
 <h2 change:h="">${container/getLabelAsHtml}</h2>
@@ -10,15 +10,15 @@
 </ul>
 
 <tal:block tal:condition="not:paginator">
-	<span change:translate="modules.faq.frontoffice.Empty-container"></span>
+	<span tal:content="trans:m.faq.frontoffice.empty-container,ucf"></span>
 </tal:block>
 <tal:block tal:condition="paginator">
 	<ol class="questions">
 		<li tal:repeat="item paginator">
 			<h3 change:h="">
-				<a tal:attributes="name anchorName; id string:faq_${item/getId}; title item/getQuestion">${item/getQuestionAsHtml}</a>
+				<a tal:attributes="name anchorName; id string:faq_${item/getId}; title item/getQuestion">${structure item/getQuestionAsHtml}</a>
 			</h3>
-			<p>${item/getResponseAsHtml}</p>
+			<p>${structure item/getResponseAsHtml}</p>
 		</li>
 	</ol>
 	<tal:block change:paginator="paginator" />
