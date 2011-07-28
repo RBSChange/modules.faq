@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <tags>
-	<tag label="&amp;modules.faq.bo.tags.faq-list;" icon="list-block">functional_faq_faq-list</tag>
-	<tag label="&amp;modules.faq.bo.tags.faq-detail;" icon="question">functional_faq_faq-detail</tag>
-	<tag label="&amp;modules.faq.bo.tags.form;" icon="form">contextual_website_website_form</tag>
+	<tag labeli18n="m.faq.bo.tags.faq-list" icon="list-block">functional_faq_faq-list</tag>
+	<tag labeli18n="m.faq.bo.tags.faq-detail" icon="question">functional_faq_faq-detail</tag>
+	<tag labeli18n="m.faq.bo.tags.form" icon="form">contextual_website_website_form</tag>
 </tags>
