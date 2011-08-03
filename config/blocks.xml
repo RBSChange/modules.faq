@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <blocks>
-	<block type="modules_faq_questionList" icon="list-block" label="&amp;modules.faq.bo.blocks.questionList.Title;">
+	<block type="modules_faq_questionList" icon="list-block">
 		<parameters>
 			<parameter name="container" type="modules_website/topic" allow="[modules_website_topic]" />
 			<parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist" hidehelp="true">
@@ -11,6 +11,6 @@
 				<constraints>min:1</constraints>
 			</parameter>
 		</parameters>
-	</block>	
-	<block type="modules_faq_detail" icon="question" label="&amp;modules.faq.bo.blocks.detail.Title;" />
+	</block>
+	<block type="modules_faq_detail" icon="question" dropModels="[modules_faq/faq]" />
 </blocks>
