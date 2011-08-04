@@ -23,7 +23,7 @@
 				<child model="modules_website/systemtopic" from="topics" />
 			</children>
 			<columns>
-				<column name="pathOf" label="PathOf" flex="3" />
+				<column name="pathOf" flex="3" />
 			</columns>
 			<contextactions>
 				<contextaction name="openFolder" />
