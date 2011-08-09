@@ -102,6 +102,6 @@
 		<action name="openFolder" icon="open-folder" labeli18n="m.uixul.bo.actions.openfolder" />
 		<action name="openTopicOrder" single="true" permission="Order" icon="sort" labeli18n="m.uixul.bo.actions.set-children-order"/>
 		<action name="openTreeNodeOrder" single="true" permission="Order" icon="sort" labeli18n="m.uixul.bo.actions.set-children-order" />
-		<action name="addTopic" permission="GetDialogTopicTree" icon="add-topic" labeli18n="m.uixul.bo.actions.addtopic" />
+		<action name="addTopic" permission="Update_rootfolder" icon="add-topic" labeli18n="m.uixul.bo.actions.addtopic" />
 	</actions>
 </perspective>

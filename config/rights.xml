@@ -11,9 +11,7 @@
 			<permission name="LoadPermissions.*" />
 			<permission name="SavePermissions.*" />
 			<permission name="Move.*" />
-			<permission name="GetDialogTopicTree" />
 			<permission name="Remove.topic" />
-			<permission name="EditLocale"/>
 			<permission name="Deactivated.*" />
 			<permission name="ReActivate.*" />
 		</role>
@@ -27,7 +25,7 @@
 			<permission name="Insert.*" />
 			<permission name="Update.*" />
 			<permission name="Deactivated.faq" />
-                        <permission name="ReActivate.faq" />
+			<permission name="ReActivate.faq" />
 		</role>
 		<role name="Translator" extend="Guest">
 			<permission name="LoadForTranslation.*" />
