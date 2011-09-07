@@ -11,7 +11,7 @@
 		<dependency>
 			<name>change-module/inquiry</name>
 			<versions>
-				<version>3.5.0</version>
+				<version>3.5.1</version>
 			</versions>
 		</dependency>
 	</dependencies>
