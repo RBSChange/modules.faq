@@ -2,10 +2,10 @@
 	<li><a change:link="document formPage" tal:content="trans:m.faq.frontoffice.linktoform,ucf"></a></li>
 </ul>
 
-<h2 change:h="">${container/getLabelAsHtml}</h2>
+<h2 change:h="">${container/getLabel}</h2>
 <ul class="shortcuts">
 	<li tal:repeat="item paginator">
-		<a class="link" tal:attributes="href string:#faq_${item/getId}">${item/getLabelAsHtml}</a>
+		<a class="link" tal:attributes="href string:#faq_${item/getId}">${item/getLabel}</a>
 	</li>
 </ul>
 
