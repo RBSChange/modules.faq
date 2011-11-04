@@ -1,16 +1,16 @@
 <?xml version="1.0"?>
 <blocks>
-	<block type="modules_faq_questionList" icon="list-block">
-		<parameters>
-			<parameter name="container" type="modules_website/topic" allow="[modules_website_topic]" />
-			<parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist" hidehelp="true">
-				<fieldlistitem value="manual" labeli18n="modules.faq.bo.general.Manual" />
-				<fieldlistitem value="alpha" labeli18n="modules.faq.bo.general.Alphanumeric" />
-			</parameter>
-			<parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" hidehelp="true">
-				<constraints>min:1</constraints>
-			</parameter>
-		</parameters>
-	</block>
-	<block type="modules_faq_detail" icon="question" dropModels="[modules_faq/faq]" />
+  <block type="modules_faq_questionList" icon="list-block">
+    <parameters>
+      <parameter name="container" type="modules_website/topic" allow="[modules_website_topic]"/>
+      <parameter name="order" type="String" min-occurs="1" default-value="manual" fieldtype="dropdownlist" hidehelp="true">
+        <fieldlistitem value="manual" labeli18n="modules.faq.bo.general.Manual"/>
+        <fieldlistitem value="alpha" labeli18n="modules.faq.bo.general.Alphanumeric"/>
+      </parameter>
+      <parameter name="nbItemsPerPage" type="Integer" min-occurs="1" default-value="10" hidehelp="true">
+        <constraint name="min" min="1"/>
+      </parameter>
+    </parameters>
+  </block>
+  <block type="modules_faq_detail" icon="question" dropModels="[modules_faq/faq]"/>
 </blocks>
