@@ -2,4 +2,5 @@
 <i18n baseKey="m.faq.bo.tags" lcid="en_GB">
   <key id="faq-list">list page</key>
   <key id="faq-detail">detail page</key>
+  <key id="form">submission form</key>
 </i18n>

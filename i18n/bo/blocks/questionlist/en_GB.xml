@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.faq.bo.blocks.questionlist" lcid="en_GB">
   <key id="title">questions / answers list</key>
+  <key id="container">container</key>
+  <key id="container-help">Container of the questions to display. Leave blank to display the contextual list of questions.</key>
+  <key id="nbitemsperpage">number of elements per page</key>
+  <key id="order">sorting</key>
 </i18n>

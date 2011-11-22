@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.faq.bo.useractionlogger" lcid="fr_FR">
+  <key id="insert-faq">insert.faq {lang} {documentlabel}</key>
+  <key id="log-insert-faq">log insert faq</key>
+  <key id="activate-faq">activate.faq {lang} {documentlabel}</key>
+  <key id="log-activate-faq">log activate faq</key>
+</i18n>
