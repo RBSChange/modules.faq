@@ -1,10 +1,7 @@
 <?xml version="1.0"?>
 <actions extends="generic">
-	<action name="createFaq" label="&amp;modules.faq.bo.actions.Create-Faq;">
+	<action name="createFaq">
 		<parameter name="listWidget" />
-		<body><![CDATA[this.createDocument(listWidget, this.name, 'faq', 'moduleForm');]]></body>
-	</action>
-	<action name="startValidation">
-		<checkDisplay>return false;</checkDisplay>
+		<body><![CDATA[this.createDocumentEditor('modules_faq_faq', listWidget.getSelectedItems()[0].id);]]></body>
 	</action>
 </actions>

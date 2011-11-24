@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <i18n baseKey="m.faq.errors" lcid="en_GB">
-  <key id="modules-faq-move-rootfolder">you don't have the appropriate permission to perform this operation : ″Add a topic″</key>
-  <key id="modules-faq-remove-topic">you don't have the appropriate permission to perform this operation : ″Remove a topic″</key>
-  <key id="modules-faq-order">you don't have the appropriate permission to perform this operation : ″Sort out the elements″</key>
-  <key id="modules-faq-activate-faq">you don't have the appropriate permission to perform this operation : ″Activate a faq″</key>
-  <key id="modules-faq-cancel-faq">you don't have the appropriate permission to perform this operation : ″Cancel a faq″</key>
-  <key id="modules-faq-enabled">you don't have the appropriate permission to perform this operation : ″Access to the module″</key>
+  <key id="modules-faq-move-rootfolder">you do not have the appropriate permissions to perform the following operation: "Add a topic"</key>
+  <key id="modules-faq-remove-topic">you do not have the appropriate permissions to perform the following operation: "Remove a topic"</key>
+  <key id="modules-faq-order">you do not have the appropriate permissions to perform the following operation: "Reorder the elements"</key>
+  <key id="modules-faq-activate-faq">you do not have the appropriate permissions to perform the following operation: "Activate FAQ"</key>
+  <key id="modules-faq-cancel-faq">you do not have the appropriate permissions to perform the following operation: "Cancel FAQ"</key>
+  <key id="modules-faq-enabled">you do not have the appropriate permissions to perform the following operation: "Access the module"</key>
 </i18n>

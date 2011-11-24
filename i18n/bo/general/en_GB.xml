@@ -6,5 +6,5 @@
   <key id="alphanumeric">alphanumeric</key>
   <key id="manual">manual</key>
   <key id="onlycontainer">folder only</key>
-  <key id="withnavigation">show navigation</key>
+  <key id="withnavigation">display the navigation</key>
 </i18n>
