@@ -5,13 +5,13 @@
 	<type>change-module</type>
 	<license>os</license>
 	<repository>public</repository>
-	<version>3.5.3</version>
+	<version>3.5.4</version>
 	<description>FAQ</description>
 	<dependencies>
 		<dependency>
 			<name>change-module/inquiry</name>
 			<versions>
-				<version>3.5.3</version>
+				<version>3.5.4</version>
 			</versions>
 		</dependency>
 	</dependencies>
